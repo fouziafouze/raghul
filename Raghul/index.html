@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+</head>
+<body>
+
+      <div class="home-body">
+        <div class="header">
+          <nav class="navbar navigation navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="index.php"
+                ><img class="logo-img" src="assests/Images/logo.png" alt=""
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="
+                    #about">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+           <section id="home" >
+            <div class="home-banner" >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 col-md-5 mx-4" class="slide-in" >
+                    <img
+                    class="rahul-img"
+                    src="./assests/Images/raghul.png"
+                    alt=""
+                  />
+                  </div>
+                  <div class="col-lg-6 col-md-6 my-auto" class="slide-in" >
+                    <div class="homebanner-content my-4">
+                      <h2 class="homebanner-text2 mb-2">The RA Letter</h2>
+                      <!-- <h2 class='type-anim my-3'><span class='homebanner-text2  '>Let’s become
+                                            </span> <span class='homebanner-text3'><span class="ityped "></span></span>
+                                            <span class='homebanner-text2'>together</span>
+                                        </h2> -->
+                      <p class="homebanner-text3 para-content">
+                        Sign up for my weekly newsletter where i will share
+                        everything i learn and implement about social media and
+                        entrepreneurship also hopefully help you along the way!
+                      </p>
+                      <div style="position: relative" class="subscribe-box">
+                        <div class="frm-in">
+                          <input
+                            type="text"
+                            class="form-control-lg py-3 ps-3"
+                            id="emailId1"
+                            placeholder="Enter Email Address*"
+                          />
+                          <span class="small text-danger" id="error1"></span>
+                        </div>
+    
+                        <div class="btn-subscribe" id="basic-addon2">
+                          <button
+                            type="button"
+                            class="btn mx-2 subscribe-btn"
+                            onclick="submitNL(1);"
+                          >
+                            Subscribe
+                          </button>
+                        </div>
+                      </div>
+                      <div class="subscribed-box text-center mt-4">
+                        <button
+                          type="button"
+                          class="btn user-select-none pe-none btn-light fs-5 px-4 py-1 fw-bold"
+                        >
+                          Submitted!!!
+                        </button>
+                        <div class="mt-3">
+                          <h6
+                            class="regular-font text-center m-0"
+                            style="color: #fff"
+                          >
+                            Thank you for subscribing! Lets grow together.
+                          </h6>
+                          <h6
+                            class="regular-font text-center mt-2"
+                            style="color: #fff"
+                          ></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+          <div class="follow-section pt-5">
+            <div class="container">
+              <h3 class="side-heading my-4">Follow me on</h3>
+              <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                  <div class="follow-card">
+                    <img
+                      class="folloe-img w-100 h-auto"
+                      src="C:\Users\fouzi\Desktop\rahul\Raghul\assests\Images\Screenshot_4-5-2024_235446_www.youtube.com.jpeg"
+                      alt=""
+                    />
+                    <div class="follow-content">
+                      <div class="homebanner-content">
+                        <div class="d-flex">
+                          <img
+                            class="sm-icon my-2 me-2"
+                            src="assests/Images/s-y.png"
+                            alt=""
+                          />
+                          <h4 class="fw-bold text-color my-2">YouTube</h4>
+                        </div>
+    
+                        <!-- <p class="text-color">Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit
+                                            amet</p> -->
+                        <div class="mt-2">
+                          <a
+                            href="https://www.youtube.com/@career pod"
+                            target="_blank"
+                            ><button type="button" class="btn readmore-btn" id="btn">
+                              Read More
+                            </button></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                  <div class="follow-card">
+                    <img
+                      class="folloe-img w-100 h-auto"
+                      src="C:\Users\fouzi\Desktop\rahul\Raghul\assests\Images\Screenshot_4-5-2024_234949_www.linkedin.com.jpeg"
+                      alt=""
+                    />
+                    <div class="follow-content">
+                      <div class="homebanner-content">
+                        <div class="d-flex">
+                          <img
+                            class="sm-icon my-2 me-2"
+                            src="assests/Images/s-li.png"
+                            alt=""
+                          />
+                          <h4 class="fw-bold text-color my-2">Linked In</h4>
+                        </div>
+    
+                        <!-- <p class="text-color">Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit
+                                            amet</p> -->
+                        <div class="mt-2" >
+                          <a
+                            href="https://www.linkedin.com/in/m-raghul/"
+                            target="_blank"
+                            ><button type="button" class="btn readmore-btn" id="btn">
+                              Read More
+                            </button></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                  <div class="follow-card">
+                    <img
+                      class="folloe-img w-100 h-auto"
+                      src="C:\Users\fouzi\Desktop\rahul\Raghul\assests\Images\Screenshot_7-5-2024_161237_twitter.com.jpeg"
+                      alt=""
+                    />
+                    <div class="follow-content">
+                      <div class="homebanner-content">
+                        <div class="d-flex">
+                          <img
+                            class="sm-icon my-2 me-2"
+                            src="assests/Images/TWITTER.png"
+                            alt=""
+                          />
+                          <h4 class="fw-bold text-color my-2">Twitter</h4>
+                        </div>
+    
+                        <!-- <p class="text-color">Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit
+                                            amet</p> -->
+                        <div class="mt-2">
+                          <a
+                            href="https://www.instagram.com/@raghul_official._/?hl=en"
+                            target="_blank"
+                            ><button type="button" class="btn readmore-btn" id="btn">
+                              Read More
+                            </button></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section id="about">
+            <div class="about-content py-5">
+              <div class="container">
+                <div class="row">
+                  <div class=" col-md-6 " data-aos="fade-right">
+                    <div class="ms-5 mt-5 ">
+                      <img
+                        class="raghul-img2"
+                        src="C:\Users\fouzi\Desktop\rahul\Raghul\assests\Images\raghul-2.jpeg "class="img-fluid  "
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class=" col-md-6 my-auto" data-aos="fade-left">
+                    <div class="homebanner-content mt-5">
+                      <h3 class="side-heading mb-4">About me</h3>
+                      <p class="text-color para-content">
+                        Hi there, I'm Raghul 👋, a  software engineer and a
+                        Creator turned Entrepreneur
+                      </p>
+                      <p class="text-color para-content">
+                        I'm passionate about empowering individuals to live happier,
+                        healthier, and wealthier lives. With I Started good 
+                        followers across various social media platforms, I create
+                        content on Career Growth, Entrepreneurship, finance, and
+                        self-development.
+                      </p>
+                      <p class="text-color para-content">
+                        My journey began as a software engineer, and while in the
+                        corporate world, I transitioned into content creation.
+                        Eventually, I made my passion lies in staying on the cutting edge
+                        and sharing my discoveries with the community.
+                      </p>
+                      <p class="text-color para-content">
+                        I am super passionate about this idea "Enabling
+                        Entrepreneurship in the Creator Economy”, that is pretty
+                        much what I am trying to achieve with my startup -
+                        <a
+                          class="createurLink"
+                          href="https://www.careerpod.ai"
+                          target="_blank"
+                          >www.carrerpod.ai</a
+                        >
+                      </p>
+                      <p class="text-color para-content">
+                        With my newsletter- The RA Letter, I aim to help people
+                        build impactful personal brands and grow their businesses
+                        online.
+                      </p>
+                      <p class="text-color para-content">
+                        Join me on this exciting journey of personal and
+                        professional growth. You’ll learn something new every single
+                        week. I guarantee it.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="footer-content py-4">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-lg-5 col-md-6 pd-value">
+                  <div class="">
+                    <h3 class="side-heading mb-5">Follow me</h3>
+                    <div class="row">
+                      <div class="col-lg-3 col-6 mb-4">
+                        <a
+                          href="https://www.linkedin.com/in/m-raghul/"
+                          target="_blank"
+                        >
+                          <div class="footer-follow">
+                            <img
+                              class="sm-icon me-1"
+                              src="assests/Images/s-li.png"
+                              alt=""
+                            />
+                            <div>
+                              <p class="small-content mb-0">Find Me On</p>
+                              <p class="text-white-color mb-0">LinkedIn</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-lg-3 col-6 mb-4">
+                        <a
+                          href="https://www.instagram.com/@raghul_official._/?hl=en"
+                          target="_blank"
+                        >
+                          <div class="footer-follow">
+                            <img
+                              class="sm-icon me-1"
+                              src="assests/Images/s-ins.png"
+                              alt=""
+                            />
+                            <div>
+                              <p class="small-content mb-0">Find Me On</p>
+                              <p class="text-white-color mb-0">Instagram</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-lg-3 col-6 mb-4">
+                        <a
+                          href="https://www.youtube.com/@careerpod"
+                          target="_blank"
+                        >
+                          <div class="footer-follow">
+                            <img
+                              class="sm-icon me-1"
+                              src="assests/Images/s-y.png"
+                              alt=""
+                            />
+                            <div>
+                              <p class="small-content mb-0">Find Me On</p>
+                              <p class="text-white-color mb-0">Youtube</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-lg-3 col-6 mb-4">
+                        <a href="https://twitter.com/@raghulM01" target="_blank">
+                          <div class="footer-follow">
+                            <img
+                              class="sm-icon me-1"
+                              src="assests/Images/TWITTER.png"
+                              alt=""
+                            />
+                            <div>
+                              <p class="small-content mb-0">Find Me On</p>
+                              <p class="text-white-color mb-0">Twitter</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                class="col-lg-6 col-md-6 pd-value my-auto"
+                data-aos="fade-right"
+              >
+                <div class="homebanner-content">
+                  <p class="text-color para-content mb-4">
+                    Sign up for 3 in 1 Weekly Insights - my weekly newsletter
+                    where I share one personal learning experience, one idea I am
+                    inspired by, and one question for you.
+                  </p>
+                  <div style="position: relative" class="subscribe-box">
+                    <div class="frm-in">
+                      <input
+                        type="text"
+                        class="form-control-lg py-3 ps-3 error-msg"
+                        id="emailId2"
+                        placeholder="Enter Email Address*"
+                      />
+                      <span class="small text-danger" id="error2"></span>
+                    </div>
+  
+                    <div class="btn-subscribe" id="basic-addon2">
+                      <button
+                        type="button"
+                        class="btn mx-2 subscribe-btn"
+                        onclick="submitNL(2);"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                  </div>
+                  <div class="subscribed-box text-center mt-4">
+                    <button
+                      type="button"
+                      class="btn user-select-none pe-none btn-light fs-5 px-4 py-1 fw-bold"
+                    >
+                      Submitted!!!
+                    </button>
+                    <div class="mt-3">
+                      <h6
+                        class="regular-font text-center m-0"
+                        style="color: #fff"
+                      >
+                        Thank you for subscribing! Lets grow together.
+                      </h6>
+                      <h6
+                        class="regular-font text-center mt-2"
+                        style="color: #fff"
+                      ></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thankyouModal">
+              Launch demo modal
+          </button> -->
+      </div>
+      <div
+        class="modal fade"
+        id="thankyouModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog mt-5" role="document">
+          <div
+            class="modal-body text-center d-flex justify-content-around align-items-center py-4 mx-3"
+            style="border-radius: 1rem"
+          >
+            <img class="w-25 h-auto" src="./Assets/Images/logo.png" alt="" />
+            <div>
+              <h6 class="regular-font m-0">Thank you for subscribing!</h6>
+              <h6 class="regular-font m-0">Lets grow together.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+         
+      <script>
+        function submitNL(val) {
+          document.getElementById("error1").innerHTML = "";
+          document.getElementById("error2").innerHTML = "";
+          var pattern = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+          if (val == 1) {
+            var emailId = document.getElementById("emailId1").value;
+  
+            if (emailId.length) {
+              if (!pattern.test(emailId)) {
+                document.getElementById("error1").innerHTML =
+                  "Email Id is Invaild";
+                emailId1.style.border = "2px solid red";
+                emailId1.style.color = "red";
+                document.getElementById("emailId1").classList.add("error");
+                setTimeout(function () {
+                  document.getElementById("emailId1").classList.remove("error");
+                }, 300);
+                return;
+              }
+  
+              fetch(
+                `https://captureemail-h7r5l7sskq-el.a.run.app?email=${emailId}`
+              )
+                .then((response) => response.text())
+                .then((result) => {
+                  $(".subscribe-box").empty();
+                  $(".subscribed-box").addClass("show");
+                  document.getElementById("emailId1").value = "";
+                  document.getElementById("emailId2").value = "";
+                })
+                .catch((error) => {
+                  document.getElementById("error1").innerHTML =
+                    "Subscribed Failed";
+                });
+  
+              // $('#thankyouModal').modal('show');
+            } else {
+              // document.getElementById("error1").innerHTML = "Email Id is Mandatory";
+              emailId1.style.border = "2px solid red";
+              emailId1.style.color = "red";
+            }
+          } else if (val == 2) {
+            if (document.getElementById("emailId2").value.length) {
+              if (!pattern.test(document.getElementById("emailId2").value)) {
+                document.getElementById("error2").innerHTML =
+                  "Email Id is Invaild";
+                emailId2.style.border = "2px solid red";
+                emailId2.style.color = "red";
+                document.getElementById("emailId2").classList.add("error");
+                setTimeout(function () {
+                  document.getElementById("emailId2").classList.remove("error");
+                }, 300);
+                return;
+              }
+  
+              fetch(
+                `https://captureemail-h7r5l7sskq-el.a.run.app?email=${
+                  document.getElementById("emailId2").value
+                }`
+              )
+                .then((response) => response.text())
+                .then((result) => {
+                  $(".subscribe-box").empty();
+                  $(".subscribed-box").addClass("show");
+                  document.getElementById("emailId1").value = "";
+                  document.getElementById("emailId2").value = "";
+                })
+                .catch((error) => {
+                  document.getElementById("error2").innerHTML =
+                    "Subscribed Failed";
+                });
+              // emailId1.value = "";
+              // $('#thankyouModal').modal('show');
+            } else {
+              // triggerBool = false;
+              // document.getElementById("error2").innerHTML = "Email Id is Mandatory";
+              emailId2.style.color = "red !important";
+              emailId2.style.border = "2px solid red";
+            }
+          }
+        }
+      </script>
+      <script>
+        // Get all sections that have an ID defined
+        const sections = document.querySelectorAll("section[id]");
+  
+        // Add an event listener listening for scroll
+        window.addEventListener("scroll", navHighlighter);
+  
+        function navHighlighter() {
+          // Get current scroll position
+          let scrollY = window.pageYOffset;
+  
+          // Now we loop through sections to get height, top and ID values for each
+          sections.forEach((current) => {
+            const sectionHeight = current.offsetHeight;
+            const sectionTop = current.offsetTop - 50;
+            sectionId = current.getAttribute("id");
+  
+            /*
+                  - If our current scroll position enters the space where current section on screen is, add .active class to corresponding navigation link, else remove it
+                  - To know which link needs an active class, we use sectionId variable we are getting while looping through sections as an selector
+                  */
+            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+              document
+                .querySelector(".navigation a[href*=" + sectionId + "]")
+                .classList.add("active");
+            } else {
+              document
+                .querySelector(".navigation a[href*=" + sectionId + "]")
+                .classList.remove("active");
+            }
+          });
+        }
+      </script>   
+
+
+
+
+    <script src="bootsrap/js/js.jquery.js"></script>
+       
+
+    
+</body>
+</html>
